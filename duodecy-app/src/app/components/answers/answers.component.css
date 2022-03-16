@@ -1,0 +1,31 @@
+.answers {
+    display: grid;
+    grid-template-columns: 50% 10%;
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+}
+
+
+button {
+    width: 200px;
+    height: 100px;
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.7rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+  }
